@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background: lightsteelblue;
+}
+div{
+    box-sizing: border-box;
+}
+div.postcontainer{ 
+    margin: auto;
+    width: 700px;
+}
+div.post{
+    background: white;
+    margin: 20px;
+}
+div.post img{
+    width: 100%;
+}
+.postheader{
+    padding-bottom: 20px;
+
+}
+li i{
+    font-size: 40px;
+}
+i{
+    font-size: 30px;
+    padding-left:20px;
+    padding-top: 20px;
+}
+div.postcontainer .post .postheader div:first-child{
+   float: left;
+    width: 40%;
+    padding: 10px;
+} 
+div.postcontainer .post .postheader div:last-child {
+    float: right;
+     width: 60%;
+    text-align: end;
+    padding-right: 10px;
+    margin-top: 14px;
+}
+.listitems ul{
+    padding: 0px;
+    margin: 0px;
+}
+.listitems li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+.paragraphs{
+    padding: 15px;
+    font-size: 20px;
+    justify-content: center;
+}
+.postfooter .bottomicons div:first-child{
+   float: left;
+    padding: 15px;
+}
+.postfooter .bottomicons div:last-child{
+    padding: 15px;
+     display: block; 
+    text-align: end;  
+}
+.postfooter{
+    overflow: hidden;
+}
